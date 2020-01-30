@@ -160,8 +160,9 @@
                 text:'PB'
         PanelFlecha:
             pos_hint: {'x': 0.11, 'y': 0.63}
-            FlechaArriba:
-                id: FA1
+        FlechaArriba:
+            #id: FA1
+            pos_hint: {'x': 0.1, 'y': 0.7}
         PanelFlecha:
             pos_hint: {'x': 0.8, 'y': 0.63}
         PanelFlecha:
@@ -175,8 +176,7 @@
 
 <FlechaArriba@FloatLayout>:
     orientation: 'vertical'
-    size_hint: 0.95,0.97
-    pos_hint: self.pos
+    size_hint: 0.07,0.07
     canvas:
         Color:
             rgba: 0, 0.5, 1, 1
