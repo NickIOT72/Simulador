@@ -15,6 +15,7 @@ class MainScreen(Screen):
     pass
     #def __init__(self, **kwargs):
     #    super(MainScreen, self).__init__(**kwargs)
+    #    self.ids['LlMsg2'].text = "de Piso"
     #    self.text= str(time.asctime())
     #    Clock.schedule_interval(self.update,1)
 #
